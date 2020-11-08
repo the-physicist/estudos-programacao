@@ -1,3 +1,3 @@
 # Linguagem Python
 
-[Web Scraping](/web-scraping)
+[Web Scraping](../web-scraping/)
