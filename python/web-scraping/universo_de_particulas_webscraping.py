@@ -6,6 +6,7 @@ from googletrans import Translator
 
 try:
     url = urlopen(input('Enter the article URL: \n'))
+    # Valid to any article at https://www.forbes.com/sites/startswithabang/ from July 2020
 except HTTPError as e:
     print(e)
 except URLError:
@@ -18,7 +19,7 @@ title = soup.title.get_text()
 
 # Checking if title has ':' or '?' to use as file name 
 for charMistake in title:
-    if charMistake == ':' or charMistake =='?':
+    if charMistake == ':' or charMistake == '?':
         title = title.replace(':',' -')
         title = title.replace('?',' (Question Mark)')
                 
@@ -63,4 +64,4 @@ def getTranslation():
             translatedText.write(text.text + '\n')
         
 
-getTranslation()
+getTranslation() # Run program
