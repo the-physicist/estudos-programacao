@@ -7,3 +7,9 @@ As intenções são unicamente retirar os parágrafos e as legendas das fotos or
 
 [Universo de Partículas Web Scraping]: https://github.com/the-physicist/estudos-programacao/blob/main/python/web-scraping/universo_de_particulas_webscraping.py
 
+
+## [Amazon Product Tracker]
+
+Programa funcional, mas ainda em desenvolvimento, para monitorar o preço de produtos na Amazon. A ideia é receber um e-mail toda vez que o preço do protudo desejado abaixar.
+
+[Amazon Product Tracker]: https://github.com/the-physicist/estudos-programacao/blob/main/python/web-scraping/amazon_product_tracker.py
